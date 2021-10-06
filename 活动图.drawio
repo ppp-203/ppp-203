@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T15:36:41.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Q_4UHxlLXz2TRcrZBvlP" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T15:39:24.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="FFjfR8TI2xkw_DAZlTox" version="15.4.3" type="github">
   <diagram id="pND5nDB5iUdsbkgv2MBZ" name="Page-1">
     <mxGraphModel dx="1647" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,6 +174,20 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="860" y="286.25" as="targetPoint" />
             <mxPoint x="780" y="286.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ze4fmGdvRAelDF033-lO-52" value="" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="ze4fmGdvRAelDF033-lO-34" target="ze4fmGdvRAelDF033-lO-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="400" as="targetPoint" />
+            <mxPoint x="725" y="367.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="530" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ze4fmGdvRAelDF033-lO-53" value="登录失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ze4fmGdvRAelDF033-lO-52">
+          <mxGeometry x="0.5307" relative="1" as="geometry">
+            <mxPoint x="7" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
