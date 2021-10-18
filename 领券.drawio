@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T10:17:48.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="-AvARVdOETvfjywVf4fr" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T10:19:27.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="xsbsZ5I7D9YN80C9l-Pz" version="15.5.2" type="github">
   <diagram id="ow7R31BGY_y6WTWSQolS" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
         <mxCell id="NfaPqUMYmKzMsSEkXOtY-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NfaPqUMYmKzMsSEkXOtY-48" target="NfaPqUMYmKzMsSEkXOtY-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NfaPqUMYmKzMsSEkXOtY-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NfaPqUMYmKzMsSEkXOtY-48" target="NfaPqUMYmKzMsSEkXOtY-63">
+        <mxCell id="NfaPqUMYmKzMsSEkXOtY-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NfaPqUMYmKzMsSEkXOtY-48" target="NfaPqUMYmKzMsSEkXOtY-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NfaPqUMYmKzMsSEkXOtY-48" value="优惠券够发？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -138,7 +138,7 @@
           <mxGeometry x="670" y="305" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="NfaPqUMYmKzMsSEkXOtY-63" value="优惠券库存不够" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="702.75" y="465" width="90" height="35" as="geometry" />
+          <mxGeometry x="729" y="550" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="NfaPqUMYmKzMsSEkXOtY-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NfaPqUMYmKzMsSEkXOtY-69" target="NfaPqUMYmKzMsSEkXOtY-71">
           <mxGeometry relative="1" as="geometry" />
@@ -232,6 +232,12 @@
         </mxCell>
         <mxCell id="NfaPqUMYmKzMsSEkXOtY-121" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="680" y="387.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NfaPqUMYmKzMsSEkXOtY-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NfaPqUMYmKzMsSEkXOtY-124" target="NfaPqUMYmKzMsSEkXOtY-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NfaPqUMYmKzMsSEkXOtY-124" value="回滚扣除的&lt;br&gt;优惠券数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="462.5" width="88" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
