@@ -1,111 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T13:59:47.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="ZxYpjj0fCl0z3FWbSL-L" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-26T14:25:52.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="jd6NVo4O0mNarKm3qDVP" version="15.5.9" type="github">
   <diagram id="KSJ3C_OkEg-H4EBqjuEx" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="40" width="80" height="250" as="geometry" />
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-48" value="管理员用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="100" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="U1sm9fc3ti1wU6GycCgI-1">
-          <mxGeometry x="35" y="70" width="10" height="90" as="geometry" />
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-49" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="U1sm9fc3ti1wU6GycCgI-48">
+          <mxGeometry x="45" y="70" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-3" value="文件" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="195" y="40" width="100" height="250" as="geometry" />
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-50" value="用户service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="100" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-4" value="拦截器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="U1sm9fc3ti1wU6GycCgI-3">
-          <mxGeometry width="100" height="240" as="geometry" />
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-52" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="U1sm9fc3ti1wU6GycCgI-50">
+          <mxGeometry x="45" y="70" width="10" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="U1sm9fc3ti1wU6GycCgI-4">
-          <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-6" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.2;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U1sm9fc3ti1wU6GycCgI-4">
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-67" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.2;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U1sm9fc3ti1wU6GycCgI-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="43" y="80" as="sourcePoint" />
-            <mxPoint x="45" y="94.99000000000001" as="targetPoint" />
+            <mxPoint x="43" y="102" as="sourcePoint" />
+            <mxPoint x="45" y="116.99000000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="18" y="80" />
-              <mxPoint x="18" y="96" />
-              <mxPoint x="43" y="96" />
-              <mxPoint x="43" y="95" />
+              <mxPoint x="18" y="102" />
+              <mxPoint x="18" y="118" />
+              <mxPoint x="43" y="118" />
+              <mxPoint x="43" y="117" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-9" value="文件下载" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U1sm9fc3ti1wU6GycCgI-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="101" y="110" as="sourcePoint" />
-            <mxPoint x="240" y="110" as="targetPoint" />
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-69" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.2;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U1sm9fc3ti1wU6GycCgI-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="43" y="160" as="sourcePoint" />
+            <mxPoint x="45" y="174.99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18" y="160" />
+              <mxPoint x="18" y="176" />
+              <mxPoint x="43" y="176" />
+              <mxPoint x="43" y="175" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-10" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="40" width="100" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-11" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="U1sm9fc3ti1wU6GycCgI-10">
-          <mxGeometry x="45" y="170" width="10" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-12" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;校验用户&lt;br&gt;登录状态&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="110" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-13" value="用户未登录" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="U1sm9fc3ti1wU6GycCgI-2">
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-74" value="生成用户code" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.2;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="U1sm9fc3ti1wU6GycCgI-52" parent="U1sm9fc3ti1wU6GycCgI-50">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="169" as="sourcePoint" />
-            <mxPoint x="100" y="169" as="targetPoint" />
+            <mxPoint x="55" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="220" />
+              <mxPoint x="85" y="240" />
+            </Array>
+            <mxPoint x="59" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-15" value="文件Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="40" width="100" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="U1sm9fc3ti1wU6GycCgI-15">
-          <mxGeometry x="45" y="120" width="10" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-21" value="用户已登录" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.9;exitY=0.714;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U1sm9fc3ti1wU6GycCgI-5" target="U1sm9fc3ti1wU6GycCgI-16">
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-56" value="新增用户请求" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.108;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="226" y="160" as="sourcePoint" />
-            <mxPoint x="370" y="160" as="targetPoint" />
+            <mxPoint x="196" y="574.04" as="sourcePoint" />
+            <mxPoint x="365" y="574.04" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-23" value="唤醒浏览器" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="U1sm9fc3ti1wU6GycCgI-16" target="U1sm9fc3ti1wU6GycCgI-11">
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-63" value="用户相关&#xa;数据表" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="100" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-65" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="U1sm9fc3ti1wU6GycCgI-63">
+          <mxGeometry x="45" y="240" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-68" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;校验用户&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;登录状态&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="580" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-70" value="用户未登录" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.2;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U1sm9fc3ti1wU6GycCgI-52" target="U1sm9fc3ti1wU6GycCgI-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="363" y="212" as="sourcePoint" />
-            <mxPoint x="625" y="275" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="350" y="620" as="sourcePoint" />
+            <mxPoint x="190" y="633" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-28" value="文件相关&#xa;数据表" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="40" width="100" height="250" as="geometry" />
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-71" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;#34;helvetica&amp;#34; ; text-align: center ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;校验用户&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; font-family: &amp;#34;helvetica&amp;#34; ; text-align: center&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;身份&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-29" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="U1sm9fc3ti1wU6GycCgI-28">
-          <mxGeometry x="45" y="120" width="10" height="32.5" as="geometry" />
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-30" value="获取待下载文件url" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U1sm9fc3ti1wU6GycCgI-16" target="U1sm9fc3ti1wU6GycCgI-29">
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-72" value="用户非管理员" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="U1sm9fc3ti1wU6GycCgI-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="169" as="sourcePoint" />
-            <mxPoint x="480" y="177" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="374" y="642.96" as="sourcePoint" />
+            <mxPoint x="200" y="703" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-31" value="返回文件url" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.9;entryY=0.322;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=0.892;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U1sm9fc3ti1wU6GycCgI-29" target="U1sm9fc3ti1wU6GycCgI-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="189" as="sourcePoint" />
-            <mxPoint x="360" y="189" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-32" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="90" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="U1sm9fc3ti1wU6GycCgI-32">
-          <mxGeometry x="40" y="200" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-34" value="访问文件" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1;exitY=0.78;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U1sm9fc3ti1wU6GycCgI-11" target="U1sm9fc3ti1wU6GycCgI-33">
+        <mxCell id="U1sm9fc3ti1wU6GycCgI-76" value="插入数据" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.9;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U1sm9fc3ti1wU6GycCgI-52" target="U1sm9fc3ti1wU6GycCgI-65">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="590" y="226" as="sourcePoint" />
-            <mxPoint x="690" y="226" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U1sm9fc3ti1wU6GycCgI-45" value="传入文件url" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.1;exitY=0.789;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U1sm9fc3ti1wU6GycCgI-16" target="U1sm9fc3ti1wU6GycCgI-11">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="350" y="230" as="sourcePoint" />
-            <mxPoint x="430" y="230" as="targetPoint" />
+            <mxPoint x="400" y="790" as="sourcePoint" />
+            <mxPoint x="480" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
