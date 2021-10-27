@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T12:57:04.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="R3EUKB6wMMmfWlK_YFvg" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-27T05:10:08.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="rQF6tqCgG1Y1iCTk-8lq" version="15.5.9" type="github">
   <diagram id="TSHFwj_1uguYBgR-W8nd" name="Page-1">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="624" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TrFmlBujuE3ZbRby1JHc-53" value="文件数据表" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-53" value="文件相关&#xa;数据表" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="40" width="100" height="280" as="geometry" />
         </mxCell>
         <mxCell id="TrFmlBujuE3ZbRby1JHc-54" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-53">
@@ -124,6 +124,319 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="320" y="360" as="sourcePoint" />
             <mxPoint x="400" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-62" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="100" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-63" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-62">
+          <mxGeometry x="45" y="70" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-64" value="文件" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="370" width="100" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-65" value="拦截器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-64">
+          <mxGeometry width="100" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-66" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-65">
+          <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-67" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.2;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="TrFmlBujuE3ZbRby1JHc-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="43" y="80" as="sourcePoint" />
+            <mxPoint x="45" y="94.99000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18" y="80" />
+              <mxPoint x="18" y="96" />
+              <mxPoint x="43" y="96" />
+              <mxPoint x="43" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-68" value="文件下载" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="91" y="440" as="sourcePoint" />
+            <mxPoint x="230" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-69" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="100" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-70" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-69">
+          <mxGeometry x="45" y="170" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-71" value="存在则&lt;br&gt;文件改名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-69">
+          <mxGeometry x="70" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-72" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;文件是&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;否存在&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-69">
+          <mxGeometry x="70" y="190" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-73" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;校验用户&lt;br&gt;登录状态&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="440" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-74" value="用户未登录" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TrFmlBujuE3ZbRby1JHc-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="499" as="sourcePoint" />
+            <mxPoint x="90" y="499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-75" value="文件Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="100" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-76" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-75">
+          <mxGeometry x="45" y="120" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-77" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-75">
+          <mxGeometry x="55" y="170" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-78" value="用户已登录" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.9;exitY=0.714;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-66" target="TrFmlBujuE3ZbRby1JHc-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="216" y="490" as="sourcePoint" />
+            <mxPoint x="360" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-79" value="根据url查找文件" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.8;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-77" target="TrFmlBujuE3ZbRby1JHc-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="600.04" as="sourcePoint" />
+            <mxPoint x="615" y="605" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-80" value="文件相关&#xa;数据表" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="100" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-81" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-80">
+          <mxGeometry x="45" y="120" width="10" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-82" value="获取待下载文件url" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-76" target="TrFmlBujuE3ZbRby1JHc-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="499" as="sourcePoint" />
+            <mxPoint x="470" y="507" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-83" value="返回文件url" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.9;entryY=0.322;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=0.892;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-81" target="TrFmlBujuE3ZbRby1JHc-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="519" as="sourcePoint" />
+            <mxPoint x="350" y="519" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-84" value="本地" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="370" width="90" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-85" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.2;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="TrFmlBujuE3ZbRby1JHc-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="43" y="240" as="sourcePoint" />
+            <mxPoint x="45" y="254.99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18" y="240" />
+              <mxPoint x="18" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-86" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-84">
+          <mxGeometry x="40" y="180" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-87" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.2;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="TrFmlBujuE3ZbRby1JHc-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="38" y="200" as="sourcePoint" />
+            <mxPoint x="40" y="214.99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="13" y="200" />
+              <mxPoint x="13" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-88" value="文件下载" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.1;exitY=0.32;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-70" target="TrFmlBujuE3ZbRby1JHc-86">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="580" y="556" as="sourcePoint" />
+            <mxPoint x="680" y="556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-112" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="690" width="80" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-113" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-112">
+          <mxGeometry x="35" y="70" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-114" value="文件" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="690" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-115" value="拦截器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-114">
+          <mxGeometry width="100" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-116" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-115">
+          <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-117" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.2;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="TrFmlBujuE3ZbRby1JHc-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="43" y="80" as="sourcePoint" />
+            <mxPoint x="45" y="94.99000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18" y="80" />
+              <mxPoint x="18" y="96" />
+              <mxPoint x="43" y="96" />
+              <mxPoint x="43" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-118" value="文件下载" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="61" y="760" as="sourcePoint" />
+            <mxPoint x="200" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-119" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="690" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-120" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-119">
+          <mxGeometry x="45" y="170" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-121" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;校验用户&lt;br&gt;登录状态&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="760" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-122" value="用户未登录" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TrFmlBujuE3ZbRby1JHc-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="819" as="sourcePoint" />
+            <mxPoint x="60" y="819" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-123" value="文件Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="690" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-124" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-123">
+          <mxGeometry x="45" y="120" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-125" value="用户已登录" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.9;exitY=0.714;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-116" target="TrFmlBujuE3ZbRby1JHc-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="186" y="810" as="sourcePoint" />
+            <mxPoint x="330" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-126" value="唤醒浏览器" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-124" target="TrFmlBujuE3ZbRby1JHc-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="323" y="862" as="sourcePoint" />
+            <mxPoint x="585" y="925" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-127" value="文件相关&#xa;数据表" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="690" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-128" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-127">
+          <mxGeometry x="45" y="120" width="10" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-129" value="获取待下载文件url" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-124" target="TrFmlBujuE3ZbRby1JHc-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="819" as="sourcePoint" />
+            <mxPoint x="440" y="827" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-130" value="返回文件url" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.9;entryY=0.322;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=0.892;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-128" target="TrFmlBujuE3ZbRby1JHc-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="839" as="sourcePoint" />
+            <mxPoint x="320" y="839" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-131" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="690" width="90" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-132" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-131">
+          <mxGeometry x="40" y="200" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-133" value="访问文件" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1;exitY=0.78;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-120" target="TrFmlBujuE3ZbRby1JHc-132">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="550" y="876" as="sourcePoint" />
+            <mxPoint x="650" y="876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-134" value="传入文件url" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.1;exitY=0.789;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-124" target="TrFmlBujuE3ZbRby1JHc-120">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="880" as="sourcePoint" />
+            <mxPoint x="390" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-135" value="管理员用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1000" width="100" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-136" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-135">
+          <mxGeometry x="45" y="70" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-137" value="用户service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1000" width="100" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-138" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-137">
+          <mxGeometry x="45" y="70" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-139" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.2;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="TrFmlBujuE3ZbRby1JHc-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="43" y="102" as="sourcePoint" />
+            <mxPoint x="45" y="116.99000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18" y="102" />
+              <mxPoint x="18" y="118" />
+              <mxPoint x="43" y="118" />
+              <mxPoint x="43" y="117" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-140" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.2;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="TrFmlBujuE3ZbRby1JHc-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="43" y="160" as="sourcePoint" />
+            <mxPoint x="45" y="174.99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18" y="160" />
+              <mxPoint x="18" y="176" />
+              <mxPoint x="43" y="176" />
+              <mxPoint x="43" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-141" value="生成用户code" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.2;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="TrFmlBujuE3ZbRby1JHc-137" target="TrFmlBujuE3ZbRby1JHc-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="220" />
+              <mxPoint x="85" y="240" />
+            </Array>
+            <mxPoint x="59" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-142" value="新增用户请求" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.108;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66" y="1084.04" as="sourcePoint" />
+            <mxPoint x="235" y="1084.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-143" value="用户相关&#xa;数据表" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1000" width="100" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-144" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TrFmlBujuE3ZbRby1JHc-143">
+          <mxGeometry x="45" y="240" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-145" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;校验用户&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;登录状态&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1090" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-146" value="用户未登录" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.2;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-138" target="TrFmlBujuE3ZbRby1JHc-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1130" as="sourcePoint" />
+            <mxPoint x="60" y="1143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-147" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;#34;helvetica&amp;#34; ; text-align: center ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;校验用户&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; font-family: &amp;#34;helvetica&amp;#34; ; text-align: center&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;身份&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1150" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-148" value="用户非管理员" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244" y="1152.96" as="sourcePoint" />
+            <mxPoint x="70" y="1213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-149" value="插入数据" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.9;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-138" target="TrFmlBujuE3ZbRby1JHc-144">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="270" y="1300" as="sourcePoint" />
+            <mxPoint x="350" y="1300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
