@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T09:49:23.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="IiNUwrhTA0b7ycxlYmae" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T09:54:14.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="AeP2o1hpq45tHUwkHITy" version="15.5.9" type="github">
   <diagram id="TSHFwj_1uguYBgR-W8nd" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -254,7 +254,7 @@
           <mxGeometry x="60" y="690" width="80" height="250" as="geometry" />
         </mxCell>
         <mxCell id="TrFmlBujuE3ZbRby1JHc-113" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="TrFmlBujuE3ZbRby1JHc-112" vertex="1">
-          <mxGeometry x="35" y="70" width="10" height="90" as="geometry" />
+          <mxGeometry x="35" y="70" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="TrFmlBujuE3ZbRby1JHc-114" value="文件" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="155" y="690" width="100" height="250" as="geometry" />
@@ -277,7 +277,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TrFmlBujuE3ZbRby1JHc-118" value="文件下载" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-113" edge="1">
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-118" value="postgetFileUrl" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-113" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="61" y="760" as="sourcePoint" />
             <mxPoint x="200" y="760" as="targetPoint" />
@@ -287,22 +287,22 @@
           <mxGeometry x="490" y="690" width="100" height="250" as="geometry" />
         </mxCell>
         <mxCell id="TrFmlBujuE3ZbRby1JHc-120" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="TrFmlBujuE3ZbRby1JHc-119" vertex="1">
-          <mxGeometry x="45" y="170" width="10" height="50" as="geometry" />
+          <mxGeometry x="45" y="170" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="TrFmlBujuE3ZbRby1JHc-121" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;校验用户&lt;br&gt;登录状态&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="760" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TrFmlBujuE3ZbRby1JHc-122" value="用户未登录" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="TrFmlBujuE3ZbRby1JHc-113" edge="1">
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-122" value="Result.fali()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" target="TrFmlBujuE3ZbRby1JHc-113" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="819" as="sourcePoint" />
             <mxPoint x="60" y="819" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TrFmlBujuE3ZbRby1JHc-123" value="文件Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-123" value="FileService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="690" width="100" height="250" as="geometry" />
         </mxCell>
         <mxCell id="TrFmlBujuE3ZbRby1JHc-124" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="TrFmlBujuE3ZbRby1JHc-123" vertex="1">
-          <mxGeometry x="45" y="120" width="10" height="90" as="geometry" />
+          <mxGeometry x="45" y="120" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TrFmlBujuE3ZbRby1JHc-125" value="用户已登录" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.9;exitY=0.714;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-116" target="TrFmlBujuE3ZbRby1JHc-124" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -310,7 +310,7 @@
             <mxPoint x="330" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TrFmlBujuE3ZbRby1JHc-126" value="唤醒浏览器" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" source="TrFmlBujuE3ZbRby1JHc-124" target="TrFmlBujuE3ZbRby1JHc-120" edge="1">
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-126" value="唤醒浏览器" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.3;exitY=0.827;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-113" target="TrFmlBujuE3ZbRby1JHc-120" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="323" y="862" as="sourcePoint" />
             <mxPoint x="585" y="925" as="targetPoint" />
@@ -323,32 +323,35 @@
         <mxCell id="TrFmlBujuE3ZbRby1JHc-128" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="TrFmlBujuE3ZbRby1JHc-127" vertex="1">
           <mxGeometry x="45" y="120" width="10" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="TrFmlBujuE3ZbRby1JHc-129" value="获取待下载文件url" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-124" target="TrFmlBujuE3ZbRby1JHc-128" edge="1">
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-129" value="getFileUrlByCode" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-124" target="TrFmlBujuE3ZbRby1JHc-128" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="819" as="sourcePoint" />
+            <mxPoint x="320" y="820" as="sourcePoint" />
             <mxPoint x="440" y="827" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TrFmlBujuE3ZbRby1JHc-130" value="返回文件url" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.9;entryY=0.322;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=0.892;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-128" target="TrFmlBujuE3ZbRby1JHc-124" edge="1">
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-130" value="fileUrl" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.9;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=0.892;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-128" target="TrFmlBujuE3ZbRby1JHc-124" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="839" as="sourcePoint" />
             <mxPoint x="320" y="839" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="839" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TrFmlBujuE3ZbRby1JHc-131" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="690" width="90" height="250" as="geometry" />
         </mxCell>
         <mxCell id="TrFmlBujuE3ZbRby1JHc-132" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="TrFmlBujuE3ZbRby1JHc-131" vertex="1">
-          <mxGeometry x="40" y="200" width="10" height="20" as="geometry" />
+          <mxGeometry x="40" y="210" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TrFmlBujuE3ZbRby1JHc-133" value="访问文件" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1;exitY=0.78;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-120" target="TrFmlBujuE3ZbRby1JHc-132" edge="1">
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-133" value="访问文件" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.9;exitY=0.771;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-120" target="TrFmlBujuE3ZbRby1JHc-132" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="550" y="876" as="sourcePoint" />
-            <mxPoint x="650" y="876" as="targetPoint" />
+            <mxPoint x="645" y="915" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TrFmlBujuE3ZbRby1JHc-134" value="传入文件url" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.1;exitY=0.789;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-124" target="TrFmlBujuE3ZbRby1JHc-120" edge="1">
+        <mxCell id="TrFmlBujuE3ZbRby1JHc-134" value="fileUrl" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.9;exitY=0.946;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TrFmlBujuE3ZbRby1JHc-113" target="TrFmlBujuE3ZbRby1JHc-120" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="310" y="880" as="sourcePoint" />
             <mxPoint x="390" y="880" as="targetPoint" />
@@ -438,6 +441,13 @@
         </mxCell>
         <mxCell id="TrFmlBujuE3ZbRby1JHc-49" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;checkMD5&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="170" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eE_0SeW9uMYdkdrJ2Gj9-3" value="Result.success(fileUrl)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.1;entryY=0.607;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.1;exitY=0.82;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrFmlBujuE3ZbRby1JHc-124" target="TrFmlBujuE3ZbRby1JHc-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="293" y="848.99" as="sourcePoint" />
+            <mxPoint x="180" y="849" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
