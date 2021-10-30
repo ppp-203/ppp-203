@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T10:22:52.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="w7c5TG5SnIw1zD-zhhTR" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T10:23:35.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="EFVvVKKkaq-gwyp5NyFD" version="15.5.9" type="github">
   <diagram id="jTyqnOY4CSZY5J-jKBLQ" name="Page-1">
     <mxGraphModel dx="1695" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tQEb7yG2iG1s_vNv8sm0-193" value="管理员" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="325" y="-190" width="70" height="50" as="geometry" />
+          <mxGeometry x="304" y="-190" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tQEb7yG2iG1s_vNv8sm0-194" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1" source="tQEb7yG2iG1s_vNv8sm0-196">
           <mxGeometry relative="1" as="geometry">
@@ -96,17 +96,17 @@
         </mxCell>
         <mxCell id="tQEb7yG2iG1s_vNv8sm0-202" value="权限信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tQEb7yG2iG1s_vNv8sm0-201" vertex="1" connectable="0">
           <mxGeometry x="0.2471" y="-1" relative="1" as="geometry">
-            <mxPoint x="26" y="1" as="offset" />
+            <mxPoint x="13" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tQEb7yG2iG1s_vNv8sm0-203" value="用户权限&lt;br&gt;管理" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="320" y="-70" width="80" height="80" as="geometry" />
+          <mxGeometry x="299" y="-70" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tQEb7yG2iG1s_vNv8sm0-204" value="用户信息表" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="540" y="-50" width="80" height="40" as="geometry" />
+          <mxGeometry x="469" y="-50" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tQEb7yG2iG1s_vNv8sm0-205" value="部门息表" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="540" y="10" width="80" height="40" as="geometry" />
+          <mxGeometry x="469" y="10" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tQEb7yG2iG1s_vNv8sm0-206" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="tQEb7yG2iG1s_vNv8sm0-208" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -119,7 +119,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tQEb7yG2iG1s_vNv8sm0-208" value="文件信息表" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="-60" width="80" height="40" as="geometry" />
+          <mxGeometry x="-60" y="-60" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tQEb7yG2iG1s_vNv8sm0-209" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.025;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tQEb7yG2iG1s_vNv8sm0-211" target="tQEb7yG2iG1s_vNv8sm0-190" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -132,7 +132,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tQEb7yG2iG1s_vNv8sm0-211" value="文件上传信息表" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="10" width="90" height="40" as="geometry" />
+          <mxGeometry x="-65" y="10" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
