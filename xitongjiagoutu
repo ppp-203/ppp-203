@@ -1,40 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T10:26:03.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="ONepWzpy7dbBrYBLt2G2" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T09:38:46.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="GD5Z36M-4UJxKdv3nHjR" version="15.5.9" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
-    <mxGraphModel dx="988" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dKdSaXE48SgPbhcamS2K-32" value="&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;/span&gt;展示层&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="180" y="340" width="440" height="80" as="geometry" />
+        <mxCell id="dKdSaXE48SgPbhcamS2K-32" value="&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;                                                                              &lt;/span&gt;&lt;/span&gt;展示层&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="180" y="270" width="440" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Vf7doxDJmnJvLsAelMmW-17" value="APP界面" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" parent="1" vertex="1">
-          <mxGeometry x="210" y="360" width="100" height="40" as="geometry" />
+          <mxGeometry x="270" y="280" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vf7doxDJmnJvLsAelMmW-18" value="交互（POST请求、GET请求）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" parent="1" vertex="1">
-          <mxGeometry x="320" y="360" width="180" height="40" as="geometry" />
+          <mxGeometry x="360" y="280" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vf7doxDJmnJvLsAelMmW-19" value="&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;/span&gt;业务层&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="180" y="440" width="440" height="80" as="geometry" />
+        <mxCell id="Vf7doxDJmnJvLsAelMmW-19" value="&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;                                                                              &lt;/span&gt;&lt;/span&gt;业务层&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="180" y="390" width="440" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Vf7doxDJmnJvLsAelMmW-20" value="业务逻辑处理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" parent="1" vertex="1">
-          <mxGeometry x="250" y="460" width="100" height="40" as="geometry" />
+        <mxCell id="Vf7doxDJmnJvLsAelMmW-20" value="UserService" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" parent="1" vertex="1">
+          <mxGeometry x="231" y="400" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vf7doxDJmnJvLsAelMmW-21" value="&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;/span&gt;数据层&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="180" y="540" width="300" height="80" as="geometry" />
+        <mxCell id="Vf7doxDJmnJvLsAelMmW-21" value="&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;        &lt;/span&gt;&lt;/span&gt;数&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 据&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;层&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="180" y="520" width="310" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Vf7doxDJmnJvLsAelMmW-22" value="事务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" parent="1" vertex="1">
-          <mxGeometry x="240" y="560" width="50" height="40" as="geometry" />
+        <mxCell id="Vf7doxDJmnJvLsAelMmW-22" value="UserDao" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" parent="1" vertex="1">
+          <mxGeometry x="225" y="530" width="55" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vf7doxDJmnJvLsAelMmW-23" value="&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 数据库&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="180" y="640" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vf7doxDJmnJvLsAelMmW-24" value="数据库读写" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" parent="1" vertex="1">
-          <mxGeometry x="310" y="560" width="80" height="40" as="geometry" />
+        <mxCell id="Vf7doxDJmnJvLsAelMmW-24" value="FileDao" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" parent="1" vertex="1">
+          <mxGeometry x="291" y="530" width="59" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vf7doxDJmnJvLsAelMmW-26" value="&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 缓存&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="500" y="540" width="130" height="80" as="geometry" />
+          <mxGeometry x="500" y="520" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vf7doxDJmnJvLsAelMmW-28" value="&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;运行环境&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="Vf7doxDJmnJvLsAelMmW-28" value="&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;                                                                         &lt;/span&gt;运行环境&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="180" y="740" width="440" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Vf7doxDJmnJvLsAelMmW-29" value="阿里云服务器" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" parent="1" vertex="1">
@@ -47,18 +47,18 @@
           <mxGeometry x="210" y="650" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vf7doxDJmnJvLsAelMmW-32" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#FFFF33;fillColor=#FFFCB3;" parent="1" vertex="1">
-          <mxGeometry x="510" y="550" width="60" height="60" as="geometry" />
+          <mxGeometry x="510" y="530" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vf7doxDJmnJvLsAelMmW-36" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="410" as="sourcePoint" />
-            <mxPoint x="310" y="440" as="targetPoint" />
+            <mxPoint x="310" y="360" as="sourcePoint" />
+            <mxPoint x="310" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vf7doxDJmnJvLsAelMmW-37" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="304.49999999999983" y="520" as="sourcePoint" />
-            <mxPoint x="304.49999999999983" y="550" as="targetPoint" />
+            <mxPoint x="305.49999999999983" y="490" as="sourcePoint" />
+            <mxPoint x="305.49999999999983" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vf7doxDJmnJvLsAelMmW-38" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
@@ -74,13 +74,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Vf7doxDJmnJvLsAelMmW-47" value="日&lt;br&gt;志&lt;br&gt;记&lt;br&gt;录" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00FF80;fillColor=#CCFFCC;" parent="1" vertex="1">
-          <mxGeometry x="190" y="450" width="40" height="160" as="geometry" />
+          <mxGeometry x="190" y="410" width="30" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ZTDtGcJDl6H2a6Sdn0jw-6" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+        <mxCell id="ZTDtGcJDl6H2a6Sdn0jw-6" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.392;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="Vf7doxDJmnJvLsAelMmW-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="515" as="sourcePoint" />
-            <mxPoint x="550" y="545" as="targetPoint" />
+            <mxPoint x="551" y="485" as="sourcePoint" />
+            <mxPoint x="551" y="515" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CjHjnx3iQWVuFAMMJcr3-1" value="UserController" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjHjnx3iQWVuFAMMJcr3-2" value="FileController" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjHjnx3iQWVuFAMMJcr3-4" value="DepartmentService" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" vertex="1" parent="1">
+          <mxGeometry x="321" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjHjnx3iQWVuFAMMJcr3-5" value="CompanyService" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" vertex="1" parent="1">
+          <mxGeometry x="441" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjHjnx3iQWVuFAMMJcr3-7" value="FileService" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" vertex="1" parent="1">
+          <mxGeometry x="241" y="440" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjHjnx3iQWVuFAMMJcr3-8" value="UploadFileService" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" vertex="1" parent="1">
+          <mxGeometry x="321" y="440" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjHjnx3iQWVuFAMMJcr3-9" value="DepartmentDao" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" vertex="1" parent="1">
+          <mxGeometry x="211" y="580" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjHjnx3iQWVuFAMMJcr3-10" value="CompanyDao" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" vertex="1" parent="1">
+          <mxGeometry x="360" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CjHjnx3iQWVuFAMMJcr3-11" value="UploadFileDao" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFF33;fillColor=#FFFCB3;" vertex="1" parent="1">
+          <mxGeometry x="331" y="580" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
